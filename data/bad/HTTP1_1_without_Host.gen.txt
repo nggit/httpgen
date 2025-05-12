@@ -1,0 +1,6 @@
+# A client MUST send a Host header field (Section 7.2 of [HTTP]) in all
+# HTTP/1.1 request messages.
+#
+GET
+/
+HTTP/1.1\r\n\r\n

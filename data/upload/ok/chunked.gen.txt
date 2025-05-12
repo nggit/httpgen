@@ -1,0 +1,10 @@
+POST
+/
+HTTP/1.1\r\nHost:
+localhost\r\nContent-Type:
+application/x-www-form-urlencoded\r\nContent-Length:
+7\r\n\r\nfoo=barPOST
+/
+HTTP/1.1\r\nHost:
+localhost\r\nTransfer-Encoding:
+gzip, chunked\r\n\r\n6;foo\r\nABCDEF\r\n0\r\n\r\n

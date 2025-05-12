@@ -1,0 +1,11 @@
+# The presence of a message body in a request is signaled by a Content-Length
+# or Transfer-Encoding header field.
+# Request message framing is independent of method semantics.
+GET
+/
+HTTP/1.1\r\nHost:
+localhost\r\nContent-Length:
+0\r\n\r\nGET
+/
+HTTP/1.1\r\nHost:
+localhost\r\nConnection: close\r\n\r\n
